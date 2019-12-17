@@ -14,6 +14,7 @@ import { ExperienceComponent } from './profile/experience/experience.component';
 import { ProjectsComponent } from './profile/projects/projects.component';
 import { SkillsComponent } from './profile/skills/skills.component';
 import { ReferenceComponent } from './profile/reference/reference.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -29,10 +30,13 @@ import { ReferenceComponent } from './profile/reference/reference.component';
     ProjectsComponent,
     SkillsComponent,
     ReferenceComponent
+
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
