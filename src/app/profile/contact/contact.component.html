@@ -9,7 +9,7 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="card-body">
-                                        <form [formGroup]="contactUserForm" (ngSubmit)="submitForm()">
+                                        <form [formGroup]="contactUserForm" (ngSubmit)="submitForm()" action="../mail.php">
                                             <div class="p pb-3">
                                                 <strong>Feel free to contact me </strong>
                                             </div>
@@ -84,5 +84,10 @@
             </div>
         </div>
     </div>
+</div>
+<div id="#back-to-top" data-spy="affix" data-offset-top="10" class="back-to-top affix">
+    <button class="btn btn-primary" title="Back to Top">
+        <i class="fa fa-angle-double-up"></i>
+    </button>
 </div>
 <script src="src\assets\js\mail-script.js"></script>

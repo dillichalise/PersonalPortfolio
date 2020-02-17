@@ -2,7 +2,7 @@
     $to = 'dillichalise@gmail.com';
     $name = $_POST["name"];
     $email= $_POST["email"];
-    $text= $_POST["message"];
+    $message= $_POST["message"];
     $subject= $_POST["subject"];
     
 
@@ -25,7 +25,7 @@
     {
         echo 'The message has been sent.';
     }else{
-        echo 'failed';
+        echo 'Message sending failed.';
     }
 
 ?>
