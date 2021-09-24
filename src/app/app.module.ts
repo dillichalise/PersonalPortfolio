@@ -1,20 +1,20 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { BrowserModule } from "@angular/platform-browser";
+import { NgModule } from "@angular/core";
 
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
-import { ProfileComponent } from './profile/profile.component';
-import { HeaderComponent } from './profile/header/header.component';
-import { FooterComponent } from './profile/footer/footer.component';
-import { IntroComponent } from './profile/intro/intro.component';
-import { ContactComponent } from './profile/contact/contact.component';
-import { EducationComponent } from './profile/education/education.component';
-import { AboutComponent } from './profile/about/about.component';
-import { ExperienceComponent } from './profile/experience/experience.component';
-import { ProjectsComponent } from './profile/projects/projects.component';
-import { SkillsComponent } from './profile/skills/skills.component';
-import { ReferenceComponent } from './profile/reference/reference.component';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { AppRoutingModule } from "./app-routing.module";
+import { AppComponent } from "./app.component";
+import { ProfileComponent } from "./profile/profile.component";
+import { HeaderComponent } from "./profile/header/header.component";
+import { FooterComponent } from "./profile/footer/footer.component";
+import { IntroComponent } from "./profile/intro/intro.component";
+import { ContactComponent } from "./profile/contact/contact.component";
+import { EducationComponent } from "./profile/education/education.component";
+import { AboutComponent } from "./profile/about/about.component";
+import { ExperienceComponent } from "./profile/experience/experience.component";
+import { ProjectsComponent } from "./profile/projects/projects.component";
+import { SkillsComponent } from "./profile/skills/skills.component";
+import { ReferenceComponent } from "./profile/reference/reference.component";
+import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -29,16 +29,10 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     ExperienceComponent,
     ProjectsComponent,
     SkillsComponent,
-    ReferenceComponent
-
+    ReferenceComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    FormsModule,
-    ReactiveFormsModule
-  ],
+  imports: [BrowserModule, AppRoutingModule, FormsModule, ReactiveFormsModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

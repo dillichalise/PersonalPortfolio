@@ -4,8 +4,6 @@
     $email= $_POST["email"];
     $message= $_POST["message"];
     $subject= $_POST["subject"];
-    
-
 
     $headers = 'MIME-Version: 1.0' . "\r\n";
     $headers .= "From: " . $email . "\r\n"; // Sender's E-mail
